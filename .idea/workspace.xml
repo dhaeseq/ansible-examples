@@ -21,9 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c06466ed-1121-4281-9358-dac240b4e14d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory_local" beforeDir="false" afterPath="$PROJECT_DIR$/inventory_local" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/playbook.yml" beforeDir="false" afterPath="$PROJECT_DIR$/playbook.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/role.docker/tasks/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/role.docker/tasks/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory" beforeDir="false" afterPath="$PROJECT_DIR$/inventory" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory_children" beforeDir="false" afterPath="$PROJECT_DIR$/inventory_children" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +59,7 @@
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tp-afip-ansible" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -73,6 +73,9 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\master-afip\ansible-examples" />
       <recent name="D:\crunchydevops\ansible\ansible-examples" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Workspace\ansible-examples" />
     </key>
   </component>
   <component name="RemoteSynchronizer">
@@ -120,6 +123,11 @@
       <workItem from="1614920778219" duration="1306000" />
       <workItem from="1614922100293" duration="16791000" />
       <workItem from="1615190495313" duration="601000" />
+      <workItem from="1615365744628" duration="2573000" />
+      <workItem from="1615368452598" duration="14494000" />
+      <workItem from="1615450231808" duration="5714000" />
+      <workItem from="1615462056356" duration="1872000" />
+      <workItem from="1615540366275" duration="3168000" />
     </task>
     <task id="LOCAL-00001" summary="minor changes">
       <created>1591282108822</created>

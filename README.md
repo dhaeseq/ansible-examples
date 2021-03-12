@@ -63,7 +63,7 @@ Et
 ```ssh-copy-id centos@<remote_id_address>```  
 
 ## Installation de VirtualEnv Python et faire des Tests avec les Ad-Hoc commandes  
-Dans votre home directory faire un git clone de https://github.com/<votre_repo>/ansible-examples.git
+Dans votre home directory (~ dans le prompt) faire un git clone de https://github.com/<votre_repo>/ansible-examples.git
 
 Dans votre projet ansible-examples, faire  
 ```shell script
@@ -84,7 +84,7 @@ pip install --upgrade pip  # pour mettre a jour pip et supporter les libs de cry
 installe la derniere version d'Ansible     
 et
 ```shell
-pip3 install ansible
+pip3 install ansible # pip3 permet de récuperer la derniere version plus facilement
 ansible --version # should be the version 2.10.6
 ```
 
@@ -101,6 +101,7 @@ et faire la commande Ansible Ad-Hoc pour verifier si votre fichier inventory est
 ```ansible all -m ping -i inventory```
 Faire ensuite  les Ad-Hoc commandes suivantes une par une lentement:  
 ```shell script 
+# centos = groupe de machine dans inventory / -b = se mettre root / -m = module / -a = argument / -i = fichier utilisé (inventory dans l'exemple)
 ansible centos -m yum -a "name=elinks state=latest" -i inventory
 ansible centosremote -m yum -a "name=elinks state=latest" -i inventory
 ansible centosremote -b -m yum -a "name=elinks state=latest" -i inventory
